@@ -23,6 +23,12 @@
         </developer>
     </developers>
 
+    <scm>
+        <connection>scm:git:git@github.com:Aemmie/utils.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Aemmie/utils.git</developerConnection>
+        <url>https://github.com/Aemmie/utils/tree/master</url>
+    </scm>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
