@@ -6,7 +6,7 @@
 
     <groupId>io.github.aemmie</groupId>
     <artifactId>utils</artifactId>
-    <version>0.01</version>
+    <version>0.02</version>
     <name>utils</name>
     <description>Various utility classes</description>
     <url>https://github.com/Aemmie/utils</url>
