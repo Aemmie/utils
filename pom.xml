@@ -6,7 +6,7 @@
 
     <groupId>io.github.aemmie</groupId>
     <artifactId>utils</artifactId>
-    <version>0.02</version>
+    <version>0.03</version>
     <name>utils</name>
     <description>Various utility classes</description>
     <url>https://github.com/Aemmie/utils</url>
@@ -38,6 +38,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.35</version>
+        </dependency>
+    </dependencies>
 
     <distributionManagement>
         <snapshotRepository>
