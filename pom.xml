@@ -6,7 +6,7 @@
 
     <groupId>io.github.aemmie</groupId>
     <artifactId>utils</artifactId>
-    <version>0.03</version>
+    <version>0.04</version>
     <name>utils</name>
     <description>Various utility classes</description>
     <url>https://github.com/Aemmie/utils</url>
@@ -50,6 +50,16 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.35</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.13.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pivovarit</groupId>
+            <artifactId>throwing-function</artifactId>
+            <version>1.5.1</version>
         </dependency>
     </dependencies>
 
